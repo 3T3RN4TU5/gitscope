@@ -13,6 +13,8 @@ Type any GitHub username and get an instant dashboard: languages, stars, forks, 
 - **Charts** — language distribution donut, most-starred repositories, repos created per year
 - **Repository explorer** — search by name / description / topic, filter by language, sort by stars, forks, recent push or name, toggle forks
 - **Portfolio health score** — six transparent checks (bio, original repos, descriptions, live demo links, recent activity, language breadth) with tips
+
+![GitScope home page with a username search and example profiles](docs/screenshot.jpg)
 - Shareable URLs (`?u=username`), recent-search history, 10-minute `sessionStorage` cache to stay within the 60 req/hour unauthenticated limit
 - Friendly handling of invalid usernames, 404s, rate limiting (with reset countdown) and network errors; requests are cancelled with `AbortController`
 - Vendor code split into cacheable `react` and `charts` chunks
